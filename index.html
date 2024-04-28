@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #de1010;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 20px;
+            background-color: rgb(10, 186, 240);
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: aqua;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="number"],
+        input[type="tel"],
+        input[type="submit"] {
+            width: 80%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #740ceb;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #555;
+        }
+        footer{
+            background-color: rgb(9, 237, 100);
+            color: black;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#product-description">Product Description</a></li>
+        </ul>
+    </nav>
+</header>
+<center><h1>NETRA</h1>
+<img src="pic.png" alt="eye Image"></center>
+<section id="contact">
+    <center>
+    <h2>Customer details</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" required><br><br>
+        
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+        
+        <input type="submit" value="Submit" >
+    </form>
+</center>
+</section>
+<section id="service">
+    <center>
+    <h2>Service</h2>
+    <h3>EyeEase includes a community platform where users can connect with
+         peers, share experiences, and access support and encouragement from 
+         others on their digital wellness journey.
+    </h3>
+</center>
+</section>
+
+<section id="product-description">
+    <center>
+    <h2>Product Description</h2>
+    <h3>Our venture's mission is to address the growing concern of eye strain<br> 
+        and potential vision problems caused by excessive screen time, <br>
+        especially from smartphone usage. And it also contains GPS tracker <br>
+        which helps the individual to show nearby OPTIMETRISTS. Our team has <br>
+        developed a wearable device that monitors users' eye behavior and <br>
+        provides personalized recommendations to help them maintain healthy <br>
+        vision</h3>
+    </center>
+</section>
+
+
+<footer>
+    <center>
+    <h3>production Team</h3>
+    <p>Name: M. Chris Subha Mani<br>Position: CEO</p>
+    <p>Name: D. Anvesh<br>Position: CFO (Chief Finance Officer)</p>
+    <p>Name: V. Chaturya<br>Position: Managing Director</p>
+    <p>Name: CH. Lakshman<br>Position: COO (Chief Operational Officer)</p>
+</center>
+</footer>
+</body>
+</html>
